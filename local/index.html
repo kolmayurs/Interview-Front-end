@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Axelerant: Interview Frontend</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <div class="header-container">
+                <div class="menu-icon"><img src="images/menu-icon.png" onclick="openNav()" width="16" height="16"></div>
+                <div class="company-logo"><img src="images/logo.png" width="128" height="13"></div>
+                <nav id="myNav">
+                    <ul class="mainMenu">
+                        <li><a href="javascript:void(0)">Home</a></li>
+                        <li><a href="javascript:void(0)">Services</a></li>
+                        <li><a href="javascript:void(0)">Solution</a></li>
+                        <li><a href="javascript:void(0)">Blog</a></li>
+                        <li class="get-in-touch"><a href="javascript:void(0)"><img src="images/chat-icon.png" width="16" height="16"><span class="get-in-touch-text">Get In Touch</span></a></li>
+                    </ul>
+                </nav>
+                <div class="chat-icon"><img src="images/chat-icon.png" id="chat-icon" width="16" height="16">
+                    <div onclick="closeNav()" id="x-icon" class="x-icon">x</div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </header>
+        <section class="section-1">
+            <div class="section-1-container">
+                <div class="section-1-container-text">Integer bibendum sit amet arcu vel egestas.</div>
+                <div class="section-1-container-box">
+                    <div class="section-1-box"><img src="images/box-icon-1.png"><span class="section-1-box-text">Service Name</span></div>
+                    <div class="section-1-box"><img src="images/box-icon-2.png"><span class="section-1-box-text">Service Name</span></div>
+                    <div class="section-1-box"><img src="images/box-icon-3.png"><span class="section-1-box-text">Service Name</span></div>
+                </div>
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="section-2-text">
+                <div class="section-2-text-headline">Mauris id bibendum est. Proin dapibus sollicitudin iaculis, Maecenas condimentum maximus laoreet.</div>
+                <div class="section-2-text-content">In maximus euismod egestas. Fusce tincidunt posuere est non elementum. Vivamus tincidunt eleifend nisi et gravida. Aenean in lorem ultrices, pellentesque augue eu, mattis est. Praesent sed volutpat nibh. Morbi faucibus tortor sed neque vulputate hendrerit. Sed aliquam mattis purus eleifend consectetur. Nulla mollis non enim non tempus. </div>
+            </div>
+            <div class="section-2-image"><img src="images/map.jpg"></div>
+        </section>
+        <section class="section-3">
+            <div class="section-3-container">
+                <div class="section-3-headline">Testimonials</div>
+                <div class="section-3-container-box">
+                    <div class="section-3-box">
+                        <div class="section-3-content"><img src="images/comma.png" width="25" height="21">uris at quam at mauris venenatis eleifend. Nullam eleifend odio a pretium dignissim. Aenean non rhoncus quam.</div>
+                        <div class="section-3-bottom">
+                            <span class="arrow-down"></span>
+                            <div class="client-container">
+                                <div class="client-image"><img src="images/client.png" width="62" height="63"></div>
+                                <div class="client-detail">
+                                    <div class="client-name">CLIENT NAME</div>
+                                    <div class="client-org">Position, ORG</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-3-box">
+                        <div class="section-3-content"><img src="images/comma.png" width="25" height="21">ut ipsum iaculis, dictum magna id, lacinia ante. Nulla facilisi. Integer lobortis in risus eget volutpat. Donec interdum elit eget quam aliquam sodales. Vestibulum auctor auctor finibus. </div>
+                        <div class="section-3-bottom">
+                            <span class="arrow-down"></span>
+                            <div class="client-container">
+                                <div class="client-image"><img src="images/client.png" width="62" height="63"></div>
+                                <div class="client-detail">
+                                    <div class="client-name">CLIENT NAME</div>
+                                    <div class="client-org">Position, ORG</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-3-box">
+                        <div class="section-3-content"><img src="images/comma.png" width="25" height="21">uris id bibendum est. Proin dapibus sollicitudin iaculis. Maecenas condimentum maximus laoreet. In maximus euismod egestas. </div>
+                        <div class="section-3-bottom">
+                            <span class="arrow-down"></span>
+                            <div class="client-container">
+                                <div class="client-image"><img src="images/client.png" width="62" height="63"></div>
+                                <div class="client-detail">
+                                    <div class="client-name">CLIENT NAME</div>
+                                    <div class="client-org">Position, ORG</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="section-4-container">
+                <div class="section-4-headline">Convinced To Work With Us?</div>
+                <div class="section-4-content">Company has helped agencies keep their promises to clients since 2005. </div>
+                <form action="#">
+                    <div class="form-box">
+                        <input class="text-box" type="text" name="fullname" placeholder="Fullname" required />
+                        <input class="text-box" type="email" name="mail" placeholder="Email Address" required />
+                        <input class="text-box" type="tel" name="phone" pattern="[0-9]{10}" placeholder="Phone Number" required />
+                        <textarea class="message-box" type="text" name="message" placeholder="Message in Brief" required /></textarea>
+                    </div>
+                    <div class="message-submit-box">
+                        <input class="message-submit" type="submit" value="Submit" />
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-container">
+                <div class="copyright-text">&copy;2017 Company. All Rights Reserved. </div>
+                <div class="follow-us">Follow us on: <img class="social-icons" src="images/fb.png" width="16" height="17"><img class="social-icons" src="images/linkedin.png" width="16" height="17"><img class="social-icons" src="images/twitter.png" width="16" height="12"><img class="social-icons" src="images/email.png" width="16" height="11"></div>
+                <div class="clear"></div>
+            </div>
+        </footer>
+    </div>
+    <script>
+    function myFunction(x) {
+        if (x.matches) { // If media query matches
+            document.getElementById("myNav").style.display = "none";
+        } else {
+            document.getElementById("myNav").style.display = "block";
+        }
+    }
+
+    var x = window.matchMedia("(max-width: 920px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+
+    function openNav() {
+        document.getElementById("myNav").style.height = "200px";
+        document.getElementById("myNav").style.display = "block";
+        document.getElementById("x-icon").style.display = "block";
+        document.getElementById("chat-icon").style.display = "none";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0px";
+        document.getElementById("myNav").style.display = "none";
+        document.getElementById("x-icon").style.display = "none";
+        document.getElementById("chat-icon").style.display = "block";
+
+    }
+    </script>
+</body>
+
+</html>
