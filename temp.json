@@ -185,7 +185,7 @@
 											"text": "Tap for more details "
 										},
 										{
-											"styleId": "transaction-details-cta",
+											"styleId": "transaction-details-cta-image",
 											"type": "image",
 											"text": "",
 											"imageUrl": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_right_morecta.png"
@@ -496,7 +496,7 @@
 				"font": "small-medium"
 			},
 			"cash-balance-info": {
-				"lineMargin": "16,16,16,16",
+				"padding": "16,16,16,16",
 				"backgroundColor": "#FFF1CC"
 			},
 			"down-chevron": {
@@ -535,8 +535,8 @@
 				"lineMargin": "12,0,12,0"
 			},
 			"transaction-amount": {
+				"font": "extra-tiny-medium",
 				"fontColor": "#333333",
-				"font": "body-small-medium",
 				"horizontalAlignment": "right"
 			},
 			"transaction-desc": {
@@ -547,14 +547,17 @@
 				"font": "body-small",
 				"horizontalAlignment": "center"
 			},
+			"transaction-details-cta-image": {
+				"width": 24
+			},
 			"transaction-details-cta-cover": {
-				"horizontalAlignment": "center",
-				"lineMargin": "6,16,6,16",
-				"padding": "16,16,12,16",
-				"backgroundColor": "#F5F5F5",
+				"margin": "12,16,12,16",
+				"padding": "8,8,8,8",
 				"border": {
-					"cornerRadius": "14,14,14,14"
-				}
+					"cornerRadius": "12,12,12,12"
+				},
+				"backgroundColor": "#F5F5F5",
+				"horizontalAlignment": "center"
 			},
 			"transaction-expired": {
 				"fontColor": "#DC354B",
