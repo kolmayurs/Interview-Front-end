@@ -1,0 +1,612 @@
+{
+	"data": {
+		"meta": {
+			"pagination": {
+				"totalPages": 2,
+				"currentPage": 1,
+				"pageSize": 2,
+				"requestTimeStamp": "2025-01-17 10:08:32"
+			}
+		},
+		"header": {
+			"title": {
+				"styleId": "header-title-v2",
+				"text": "BookMyShow Cash"
+			},
+			"startActions": [
+				{
+					"iconUrl": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_left_back.png",
+					"cta": {
+						"type": "closeScreen"
+					}
+				}
+			],
+			"backgroundColor": "#FFFFFF"
+		},
+		"widgets": [
+			{
+				"type": "vertical-card-info",
+				"styleId": "vertical-card-widget",
+				"data": [
+					{
+						"styleId": "cash-balance-info",
+						"leftText": {
+							"data": [
+								{
+									"components": [
+										{
+											"styleId": "balance-title",
+											"type": "text",
+											"text": "Available BMS Cash"
+										}
+									]
+								}
+							]
+						},
+						"rightText": {
+							"styleId": "transaction-right-text",
+							"data": [
+								{
+									"components": [
+										{
+											"styleId": "balance-amount",
+											"type": "text",
+											"text": "₹203.60"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"styleId": "transaction-item",
+						"leftText": {
+							"data": [
+								{
+									"components": [
+										{
+											"styleId": "transaction-title",
+											"type": "text",
+											"text": "13 Aug 2024 04:14:54 PM"
+										}
+									]
+								},
+								{
+									"components": [
+										{
+											"styleId": "transaction-desc",
+											"type": "text",
+											"text": "Paid for Donation"
+										}
+									]
+								},
+								{
+									"components": [
+										{
+											"styleId": "transaction-image",
+											"type": "image",
+											"text": ""
+										},
+										{
+											"styleId": "transaction-validity",
+											"type": "text",
+											"text": "",
+											"imageUrl": "Valid till 24 Jun 2026"
+										}
+									]
+								}
+							]
+						},
+						"rightText": {
+							"styleId": "transaction-right-text",
+							"data": [
+								{
+									"components": [
+										{
+											"styleId": "transaction-amount",
+											"type": "text",
+											"text": "-₹1.00"
+										}
+									]
+								}
+							]
+						}
+					},
+					{
+						"styleId": "transaction-item",
+						"leftText": {
+							"data": [
+								{
+									"components": [
+										{
+											"styleId": "transaction-title",
+											"type": "text",
+											"text": "24 Jun 2024 04:25:21 PM"
+										}
+									]
+								},
+								{
+									"components": [
+										{
+											"styleId": "transaction-desc",
+											"type": "text",
+											"text": "Refund for 1920 London"
+										}
+									]
+								},
+								{
+									"components": [
+										{
+											"styleId": "transaction-image",
+											"type": "image",
+											"text": "",
+											"imageUrl": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/earn_state.png"
+										},
+										{
+											"styleId": "transaction-validity",
+											"type": "text",
+											"text": "",
+											"imageUrl": "Valid till 24 Jun 2026"
+										}
+									]
+								}
+							]
+						},
+						"rightText": {
+							"styleId": "transaction-right-text",
+							"data": [
+								{
+									"components": [
+										{
+											"styleId": "transaction-amount",
+											"type": "text",
+											"text": "+₹200.00"
+										}
+									]
+								}
+							]
+						},
+						"meta": {
+							"separator": {
+								"styleId": "transaction-separator"
+							}
+						}
+					},
+					{
+						"styleId": "transaction-details-cta-cover",
+						"leftText": {
+							"styleId": "transaction-details-cta",
+							"data": [
+								{
+									"components": [
+										{
+											"styleId": "transaction-details-cta",
+											"type": "text",
+											"text": "Tap for more details "
+										},
+										{
+											"styleId": "transaction-details-cta",
+											"type": "image",
+											"text": "",
+											"imageUrl": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_right_morecta.png"
+										}
+									]
+								}
+							],
+							"cta": {
+								"id": "ledgerDetails",
+								"type": "router",
+								"url": "todo, get from FE",
+								"analytics": {
+									"event_action": "know_more",
+									"event_name": "bms_ledger_clicked",
+									"event_type": "click",
+									"product": "loyalty",
+									"screen_name": "bms_ledger",
+									"source": "bms_ledger"
+								}
+							}
+						}
+					}
+				]
+			},
+			{
+				"type": "vertical-description-info",
+				"styleId": "bms-cash-info",
+				"data": [
+					{
+						"styleId": "bms-cash-info-question-ans",
+						"leftText": {
+							"data": [
+								{
+									"components": [
+										{
+											"styleId": "bms-cash-info-question",
+											"type": "text",
+											"text": "What is BMS cash"
+										}
+									]
+								},
+								{
+									"styleId": "bms-cash-info-ans",
+									"components": [
+										{
+											"styleId": "bms-cash-info-ans",
+											"type": "text",
+											"text": "BMS Cash enables users to receive refunds as digital credits in their BookMyShow account which can also be used to pay for ticket bookings."
+										}
+									]
+								}
+							]
+						}
+					}
+				]
+			},
+			{
+				"type": "bms-cash-info-image",
+				"data": [
+					{
+						"styleId": "bms-cash-info-image",
+						"type": "image",
+						"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/benefit_info.png"
+					}
+				]
+			},
+			{
+				"type": "vertical-expandable-info",
+				"styleId": "faq-item",
+				"data": [
+					{
+						"id": "Q_001",
+						"styleId": "faq-widget",
+						"isExpanded": true,
+						"title": [
+							{
+								"styleId": "faq-widget-title",
+								"components": [
+									{
+										"type": "text",
+										"text": "Is a refund credited to BMS Cash if a transaction is canceled?"
+									}
+								]
+							}
+						],
+						"description": {
+							"styleId": "faq-widget-title",
+							"htmlText": "<html><head><body style=\"font-family: Roboto; font-size: 11px; font-weight: 400; line-height: 16px; color: #525252;\">As per RBI mandate, you cannot transfer BMS Cash to your bank account. However, you can use BMS Cash for any future transaction.</body></head></html>"
+						},
+						"cta": {
+							"id": "expandAndCollapse",
+							"type": "accordion"
+						},
+						"rightIconExpanded": {
+							"styleId": "faq-widget-icon",
+							"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_down.png"
+						},
+						"rightIconCollapsed": {
+							"styleId": "faq-widget-icon",
+							"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_up.png"
+						}
+					},
+					{
+						"id": "Q_002",
+						"styleId": "faq-widget",
+						"isExpanded": true,
+						"title": [
+							{
+								"styleId": "faq-widget-title",
+								"components": [
+									{
+										"type": "text",
+										"text": "I want to know how to use BMS Cash"
+									}
+								]
+							}
+						],
+						"description": {
+							"styleId": "faq-widget-title",
+							"htmlText": "<html><head><body style=\"font-family: Roboto; font-size: 11px; font-weight: 400; line-height: 16px; color: #525252;\">BMS Cash will be pre-selected at checkout, which means available BMS Cash balance will be automatically applied to your purchase. You can also apply offer(s), if any, using BMS Cash. Pay the remaining amount, if any, using other payment methods.</body></head></html>"
+						},
+						"cta": {
+							"id": "expandAndCollapse",
+							"type": "accordion"
+						},
+						"rightIconExpanded": {
+							"styleId": "faq-widget-icon",
+							"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_down.png"
+						},
+						"rightIconCollapsed": {
+							"styleId": "faq-widget-icon",
+							"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_up.png"
+						}
+					},
+					{
+						"id": "Q_003",
+						"styleId": "faq-widget",
+						"isExpanded": true,
+						"title": [
+							{
+								"styleId": "faq-widget-title",
+								"components": [
+									{
+										"type": "text",
+										"text": "I want to add money to BMS Cash"
+									}
+								]
+							}
+						],
+						"description": {
+							"styleId": "faq-widget-title",
+							"htmlText": "<html><head><body style=\"font-family: Roboto; font-size: 11px; font-weight: 400; line-height: 16px; color: #525252;\">Unfortunately, you can’t directly add money to BMS Cash. BMS Cash is valid only in case of a) Booking cancellation or b) Unsuccessful transaction.</body></head></html>"
+						},
+						"cta": {
+							"id": "expandAndCollapse",
+							"type": "accordion"
+						},
+						"rightIconExpanded": {
+							"styleId": "faq-widget-icon",
+							"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_down.png"
+						},
+						"rightIconCollapsed": {
+							"styleId": "faq-widget-icon",
+							"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_up.png"
+						}
+					},
+					{
+						"id": "Q_004",
+						"styleId": "faq-widget",
+						"title": [
+							{
+								"styleId": "faq-widget-title",
+								"components": [
+									{
+										"type": "text",
+										"text": "Is a refund credited to BMS cash if a transaction is cancelled/unsuccessful?"
+									}
+								]
+							}
+						],
+						"description": {
+							"styleId": "faq-widget-title",
+							"htmlText": "<html><head><body style=\"font-family: Roboto; font-size: 11px; font-weight: 400; line-height: 16px; color: #525252;\">In case of a cancellation, you will be given options on how you want your refund:<ul style=\"list-style-type:disc; margin: 0 10px;\"><li style=\"font-family: Roboto; font-size: 11px; font-weight: 400; line-height: 16px; color: #525252;\"><strong>Refund to your original payment source:</strong> This may take 7-8 business days, depending on your payment and bank.</li><li style=\"font-family: Roboto; font-size: 11px; font-weight: 400; line-height: 16px; color: #525252;\"><strong>Refund to BMS Cash:</strong> This will be processed immediately and can be used for future bookings. BMS Cash will have an expiry of 'X' days.</li></ul><span style=\"font-family: Roboto; font-size: 11px; font-weight: 400; line-height: 16px; color: #525252;\">ensure your refund quick, we recommend you choose BMS Cash.</span></body></head></html>"
+						},
+						"cta": {
+							"id": "expandAndCollapse",
+							"type": "accordion"
+						},
+						"rightIconExpanded": {
+							"styleId": "faq-widget-icon",
+							"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_down.png"
+						},
+						"rightIconCollapsed": {
+							"styleId": "faq-widget-icon",
+							"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_up.png"
+						}
+					},
+					{
+						"id": "Q_005",
+						"styleId": "faq-widget",
+						"isExpanded": true,
+						"title": [
+							{
+								"styleId": "faq-widget-title",
+								"components": [
+									{
+										"type": "text",
+										"text": "I want to know if BMS Cash used on a cancelled transaction will be refunded to BMS cash"
+									}
+								]
+							}
+						],
+						"description": {
+							"styleId": "faq-widget-title",
+							"htmlText": "<html><head><body style=\"font-family: Roboto; font-size: 11px; font-weight: 400; line-height: 16px; color: #525252;\">Yes, if your cancellation is successful, your refund will be credited to BMS Cash.</body></head></html>"
+						},
+						"cta": {
+							"id": "expandAndCollapse",
+							"type": "accordion"
+						},
+						"rightIconExpanded": {
+							"styleId": "faq-widget-icon",
+							"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_down.png"
+						},
+						"rightIconCollapsed": {
+							"styleId": "faq-widget-icon",
+							"url": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_up.png"
+						}
+					}
+				]
+			},
+			{
+				"type": "vertical-action-info",
+				"data": [
+					{
+						"styleId": "help-info-text",
+						"leftText": {
+							"data": [
+								{
+									"cta": {
+										"id": "needMoreHelp",
+										"type": "router",
+										"url": "https://in-preprod.bms.bz/help-centre/topic/4000038114",
+										"analytics": {
+											"event_action": "know_more",
+											"event_name": "bms_ledger_clicked",
+											"event_type": "click",
+											"product": "loyalty",
+											"screen_name": "bms_ledger",
+											"source": "bms_ledger / sub_category_selection"
+										}
+									},
+									"components": [
+										{
+											"styleId": "help-text-title",
+											"type": "text",
+											"text": "Need More Help? "
+										},
+										{
+											"styleId": "help-text-image",
+											"type": "image",
+											"text": "https://assets-in.bmscdn.com/paymentcms/bmscash/ledger/chevron_right_morehelp.png"
+										}
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		],
+		"styles": {
+			"balance-amount": {
+				"fontColor": "#333333",
+				"font": "small-medium",
+				"horizontalAlignment": "right"
+			},
+			"balance-title": {
+				"fontColor": "#333333",
+				"font": "small-medium"
+			},
+			"balance-validity": {
+				"fontColor": "#333333",
+				"font": "extra-tiny-regular"
+			},
+			"bms-cash-info": {
+				"padding": "12,0,0,0"
+			},
+			"bms-cash-info-ans": {
+				"fontColor": "#404040",
+				"font": "tiny-regular",
+				"lineMargin": "8,0,18,0"
+			},
+			"bms-cash-info-image": {
+				"aspectRatio": 3.8787878788,
+				"margin": "16,0,12,0",
+				"padding": "16,0,16,0",
+				"border": {
+					"cornerRadius": "8,8,8,8"
+				}
+			},
+			"bms-cash-info-question": {
+				"fontColor": "#333333",
+				"font": "small-medium",
+				"lineMargin": "0,0,8,0"
+			},
+			"bms-cash-info-question-ans": {
+				"font": "small-medium"
+			},
+			"cash-balance-info": {
+				"lineMargin": "16,16,16,16",
+				"backgroundColor": "#FFF1CC"
+			},
+			"down-chevron": {
+				"width": 24,
+				"height": 24
+			},
+			"faq-list": {
+				"margin": "8,0,8,0"
+			},
+			"faq-question": {
+				"fontColor": "#333333",
+				"font": "tiny-regular"
+			},
+			"faq-widget": {
+				"margin": "8,0,8,0",
+				"padding": "12,0,12,0",
+				"backgroundColor": "#FFFFFF",
+				"shadow": {
+					"elevation": 4,
+					"color": "#00000033"
+				},
+				"border": {
+					"cornerRadius": "8,8,8,8"
+				}
+			},
+			"faq-widget-icon": {
+				"width": 24,
+				"height": 24
+			},
+			"help-text-image": {
+				"font": "small-medium"
+			},
+			"help-text-title": {
+				"fontColor": "#DC354B",
+				"font": "small-medium",
+				"lineMargin": "12,0,12,0"
+			},
+			"transaction-amount": {
+				"fontColor": "#333333",
+				"font": "body-small-medium",
+				"horizontalAlignment": "right"
+			},
+			"transaction-desc": {
+				"fontColor": "#333333",
+				"font": "extra-tiny-regular"
+			},
+			"transaction-details-cta": {
+				"font": "body-small",
+				"horizontalAlignment": "center"
+			},
+			"transaction-details-cta-cover": {
+				"horizontalAlignment": "center",
+				"lineMargin": "6,16,6,16",
+				"padding": "16,16,12,16",
+				"backgroundColor": "#F5F5F5",
+				"border": {
+					"cornerRadius": "14,14,14,14"
+				}
+			},
+			"transaction-expired": {
+				"fontColor": "#DC354B",
+				"font": "extra-tiny-regular"
+			},
+			"transaction-image": {
+				"fontSize": "12",
+				"width": 12,
+				"height": 12,
+				"imageVerticalAlignment": "center",
+				"margin": "0,4,0,0"
+			},
+			"transaction-item": {
+				"padding": "12,16,0,16"
+			},
+			"transaction-right-text": {
+				"widthpct": 0.3
+			},
+			"transaction-separator": {
+				"lineMargin": "0,0,12,0",
+				"border": {
+					"type": "solid",
+					"color": "#E5E5E5"
+				}
+			},
+			"transaction-title": {
+				"fontColor": "#333333",
+				"font": "tiny-medium",
+				"lineMargin": "4,0,4,0"
+			},
+			"transaction-validity": {
+				"fontColor": "#666666",
+				"font": "extra-tiny-regular"
+			},
+			"vertical-card-widget": {
+				"backgroundColor": "#FFFFFF",
+				"border": {
+					"cornerRadius": "8,8,8,8"
+				},
+				"shadow": {
+					"elevation": 1
+				}
+			}
+		}
+	},
+	"metadata": {
+		"analytics": {
+			"event_name": "bms_ledger_viewed",
+			"event_type": "screen_view",
+			"product": "loyalty",
+			"screen_name": "bms_ledger",
+			"source": "bms_ledger / sub_category_selection"
+		}
+	}
+}
